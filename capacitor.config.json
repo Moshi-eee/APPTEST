@@ -3,6 +3,6 @@
   "appName": "frontend",
   "webDir": "dist",
   "server": {
-    "androidScheme": "https"
+    "androidScheme": "http://192.168.3.114:8000/api/v1"
   }
 }
