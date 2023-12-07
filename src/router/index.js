@@ -17,12 +17,6 @@ const router = createRouter({
       meta: { permission: "false" },
     },
     {
-      path: "/changepassword",
-      name: "changepassword",
-      component: () => import("@/views/auth/Changepassword.vue"),
-      meta: { permission: true },
-    },
-    {
       path: "/bookingprintreport",
       name: "bookingprintreport",
       component: () => import("@/views/booking/reports/print.vue"),
@@ -174,11 +168,7 @@ const router = createRouter({
             import("@/views/user/maintenance/SubBusinessUnit.vue"),
           meta: { permission: true },
         },
-        {
-          path: "maintenance/holiday",
-          component: () => import("@/views/user/maintenance/holiday.vue"),
-          meta: { permission: true },
-        },
+
         {
           path: "schedule/fixed-schedule",
           component: () => import("@/views/user/FixSchedule.vue"),
