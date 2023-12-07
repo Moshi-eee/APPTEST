@@ -13,7 +13,7 @@
    "proxies": {
     "exampleProxy": {
       "path": "/api/v1",
-      "proxyUrl": "http://192.168.3.114:8000/api"
+      "proxyUrl": "http://192.168.3.114:8000"
     }
   }
 }
