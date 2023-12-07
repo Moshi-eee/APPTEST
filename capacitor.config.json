@@ -2,7 +2,12 @@
   "appId": "com.frontend",
   "appName": "frontend",
   "webDir": "dist",
+  "plugins": {
+  },
   "server": {
-    "androidScheme": "http"
+    "hostname": "192.168.3.114",
+    "iosScheme": "http",
+    "androidScheme": "http",
+    "allowNavigation": ["*"]
   }
 }
