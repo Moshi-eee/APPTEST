@@ -461,7 +461,7 @@ const router = createRouter({
         },
         {
           path: "schedule",
-          component: () => import("@/views/attendance/Schedule.vue"),
+          component: () => import("@/views/attendance/schedule.vue"),
           meta: { permission: true },
         },
         {
