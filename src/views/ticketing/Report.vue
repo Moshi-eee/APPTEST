@@ -81,7 +81,7 @@ const headers = [
   { title: "Priority", align: "left", key: "Priority", sortable: false },
   { title: "Status", align: "left", key: "Status", sortable: false },
   { title: "Created", align: "left", key: "Created", sortable: false },
-  { title: "Closed", align: "left", key: "Closed", sortable: false },
+  // { title: "Closed", align: "left", key: "Closed", sortable: false },
   { title: "Duration", align: "left", key: "Duration", sortable: false },
   { title: "Rating", align: "left", key: "Ratings", sortable: false },
 ];
@@ -130,7 +130,7 @@ const fetch = async () => {
         const c_dd = String(c_ticketdate.getDate()).padStart(2, "0");
         const c_mm = String(c_ticketdate.getMonth() + 1).padStart(2, "0"); //January is 0!
         const c_yyyy = c_ticketdate.getFullYear();
-        close_date = c_yyyy + "/" + c_mm + "/" + c_dd;
+        // close_date = c_yyyy + "/" + c_mm + "/" + c_dd;
       }
 
       exportItems.value.push({
