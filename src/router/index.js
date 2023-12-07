@@ -456,7 +456,7 @@ const router = createRouter({
         },
         {
           path: "attendance",
-          component: () => import("@/views/attendance/Attendance.vue"),
+          component: () => import("@/views/attendance/attendance.vue"),
           meta: { permission: true },
         },
         {
@@ -466,12 +466,12 @@ const router = createRouter({
         },
         {
           path: "overtime",
-          component: () => import("@/views/attendance/Overtime.vue"),
+          component: () => import("@/views/attendance/overtime.vue"),
           meta: { permission: true },
         },
         {
           path: "leaves",
-          component: () => import("@/views/attendance/Leaves.vue"),
+          component: () => import("@/views/attendance/leaves.vue"),
           meta: { permission: true },
         },
       ],
